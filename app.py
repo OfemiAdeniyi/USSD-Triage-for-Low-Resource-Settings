@@ -31,9 +31,9 @@ except Exception as e:
     FEATURE_COLUMNS = None
 
 WARDS = {
-    "1": {"name": "Umuoji Ward",   "facility": "Umuoji PHC",          "ambulance": True,  "contact": "N/A",                         "eta": "9 mins"},
-    "2": {"name": "Nkwelle Ward",  "facility": "Nkwelle PHC",         "ambulance": False, "contact": "Community Rider - Emeka",     "eta": "14 mins"},
-    "3": {"name": "Ogbunike Ward", "facility": "Ogbunike Health Post","ambulance": False, "contact": "Community Rider - Chidi",     "eta": "11 mins"},
+    "1": {"name": "Isa-Ope Ward",   "facility": "Isa-Ope PHC",          "ambulance": False,  "contact": "N/A",                         "eta": "9 mins"},
+    "2": {"name": "Idofoi Ward",  "facility": "Ibile PHC",         "ambulance": True, "contact": "Tricycle Ambulance Rider - Kabiru",     "eta": "14 mins"},
+    "3": {"name": "Oke-Ola Ward", "facility": "Oke-Idagba PHC","ambulance": False, "contact": "Community Rider - Olawale",     "eta": "11 mins"},
 }
 
 # Each sequence entry: (prompt_text, symptom_key, tier_if_yes)
